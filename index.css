@@ -7,7 +7,7 @@
 img {
     padding: var(--spacing);
     background-color: var(--base);
-    filter: blue(var(--blur));
+    filter: blur(var(--blur));
     width: 90%;
 }
 
