@@ -5,10 +5,11 @@ Change the spacing and blur effect of a picture using sliders and change an elem
 ## JavaScript concepts:
 
 - document.querySelectorAll()
+    - NodeList (returned from querySelectorAll, not an array)
+    - .forEach()
 - this.dataset (to select CSS --data variables)
 - document.documentElement.style.setProperty()
 - template literals / string literals
-- .forEach()
 - .addEventListener()
     - .addEventListener("change", () => {})
     - .addEventListener("mousemove", () => {})
